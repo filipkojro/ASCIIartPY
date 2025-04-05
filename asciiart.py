@@ -59,8 +59,9 @@ end[:,:,0] = x
 end[:,:,1] = x
 end[:,:,2] = x
 
-
-
+npend = np.array(end)
+npend *= 2
+end = npend
 #for i in range(endH):
 #    for j in range(endW):
 #        # gamma = gExpr(end[i,j,0])*0.2126 + gExpr(end[i,j,1])*0.7152 + gExpr(end[i,j,2])*0.0722
